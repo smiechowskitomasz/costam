@@ -95,15 +95,14 @@ body {
   display: none;
 }
 
-.image-text:hover, .image-text:focus {
+.image-text:hover {
   cursor: pointer;
   z-index: 2;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6)));
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
 
-.image-text:hover div,
-.image-text:focus div {
+.image-text:hover div {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -128,8 +127,7 @@ body {
           transform: translate(-50%, -50%);
 }
 
-.image-text:hover div i,
-.image-text:focus div i {
+.image-text:hover div i {
   display: inline-block;
 }
 
@@ -153,7 +151,7 @@ body {
   z-index: 12;
 }
 
-.imagePopUnder:hover, .imagePopUnder:focus {
+.imagePopUnder:hover {
   cursor: -webkit-zoom-out;
   cursor: zoom-out;
 }
