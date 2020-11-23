@@ -916,19 +916,14 @@ body {
   overflow-x: hidden;
 }
 
-.header {
-  width: 50%;
-  padding: 1%;
-  background-color: #e95b0a;
+.slider__header {
+  margin: 120px auto 40px auto;
+  font-size: 56px;
+  line-height: 56px;
   text-align: center;
-  margin: 5vh auto;
-  border-radius: 20%;
-}
-
-.header h2 {
-  color: #272626;
-  font-size: 25px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .imagesContainer {
